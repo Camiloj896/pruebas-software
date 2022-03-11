@@ -1,0 +1,74 @@
+.cardQuestion {
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: white;
+    max-height: 250px;
+}
+
+.cardQuestion:hover {
+    box-shadow: 1px 2px 3px #b9b4b4;
+}
+
+.cardQuestion .cardQuestion-information {
+    width: 100%;
+}
+
+.cardQuestion .cardQuestion-information .cardQuestion-title {
+    margin-bottom: 10px;
+}
+
+.cardQuestion .cardQuestion-information .cardQuestion-title h5 {
+    margin-bottom: 0;
+}
+
+.cardQuestion .cardQuestion-information .cardQuestion-title .options {
+    width: 17%;
+    float: right;
+    color: black;
+    border: 1px  solid;
+}
+
+.cardQuestion .cardQuestion-information .cardQuestion-title .options a {
+    color: black;
+}
+
+.cardQuestion .cardQuestion-information span {
+    color: rgb(117, 115, 115);
+}
+
+.cardQuestion .cardQuestion-description {
+    overflow: auto;
+    max-height: 140px;
+}
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+.cardQuestion .cardQuestion-description::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.cardQuestion .cardQuestion-description::-webkit-scrollbar:vertical {
+    width:5px;
+}
+
+.cardQuestion .cardQuestion-description::-webkit-scrollbar-button:increment,.cardQuestion .cardQuestion-description::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.cardQuestion .cardQuestion-description::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.cardQuestion .cardQuestion-description::-webkit-scrollbar-thumb {
+    background-color: #FE6D6A;
+    border-radius: 20px;
+    border: 1px solid #f1f2f3;
+}
+
+.cardQuestion .cardQuestion-description::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}

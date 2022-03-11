@@ -1,0 +1,32 @@
+.commentComponent {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+}
+
+.commentComponent .options {
+    width: 9%;
+    float: right;
+    color: black;
+}
+
+.commentComponent .options a {
+    color: black;
+}
+
+.commentComponent .content-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.commentComponent .btn-tell {
+    background-color: #FE6D6A;
+    border-color: #FE6D6A;
+}
+
+.commentComponent .content-buttons .ml-5 {
+    margin-left: 5px;
+}
+
+

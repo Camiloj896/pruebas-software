@@ -1,0 +1,21 @@
+.post .imgCreatePost {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post .imgCreatePost img {
+    width: 650px;
+    height: 400px;
+}
+
+.post .float-right {
+    float: right;
+}
+
+.post .text-error {
+    width: 100%;
+    color: red;
+}

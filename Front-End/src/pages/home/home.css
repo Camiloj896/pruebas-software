@@ -1,0 +1,29 @@
+.homePage { height: 100vh; width: 99%;}
+
+.homePage .pr-0 { padding-right: 0; }
+
+.homePage .row { height: 100%; }
+
+.homePage .content-information {
+    background-size: contain;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    position: relative;
+}
+
+.homePage .content-information .back {
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+
+.homePage .content-information-page {
+    padding: 20px;
+    z-index: 2;
+}
+
+.homePage .content-information-page .title-content {
+    text-align: center;
+    font-weight: bold;
+}
+

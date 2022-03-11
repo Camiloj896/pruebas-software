@@ -1,0 +1,135 @@
+.askQuestion { height: 100vh; width: 99%;}
+
+.askQuestion .pr-0 { padding-right: 0; }
+
+.askQuestion .row { height: 100%; }
+
+.askQuestion .content-information {
+    background-size: contain;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    position: relative;
+}
+
+.askQuestion .content-information .back {
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+
+.askQuestion .content-information-page {
+    padding: 20px;
+    z-index: 2;
+}
+
+.askQuestion .content-information-page .title-content {
+    text-align: center;
+    font-weight: bold;
+}
+
+.askQuestion .content-information-page .content-form {
+    display: flex;
+    justify-content: center;
+}
+
+.askQuestion .content-information-page .content-form form{
+    background-color: white;
+    border-radius: 20px;
+    width: 45%;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.askQuestion .content-information-page .content-form .help-information{
+    background-color: white;
+    border-radius: 20px;
+    width: 15%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.askQuestion .content-information-page .content-form .view-question-information {
+    background-color: white;
+    border-radius: 20px;
+    width: 45%;
+    padding: 20px;
+    margin-top: 10px;
+    max-height: 650px;
+    position: relative;
+}
+
+.askQuestion .content-information-page .content-form .comments-information {    
+    width: 30%;    
+    margin-top: 10px;
+    margin-left: 50px;
+    max-height: 650px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+.comments-information::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.comments-information::-webkit-scrollbar:vertical {
+    width:5px;
+}
+
+.comments-information::-webkit-scrollbar-button:increment,.comments-information::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.comments-information::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.comments-information::-webkit-scrollbar-thumb {
+    background-color: #FE6D6A;
+    border-radius: 20px;
+    border: 1px solid #f1f2f3;
+}
+
+.comments-information::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.askQuestion .content-information-page .content-form .comments-information .comments {
+    text-align: center;
+}
+
+.askQuestion .content-information-page .content-form form .btn-tell {
+    background-color: #FE6D6A;
+    border-color: #FE6D6A;
+}
+
+.askQuestion .content-information-page .content-form form .float-right {
+    float: right;
+}
+
+.askQuestion .text-error {
+    width: 100%;
+    color: red;
+}
+
+.askQuestion .btn-tell {
+    background-color: #FE6D6A;
+    border-color: #FE6D6A;
+}
+
+.askQuestion .float-right {
+    float: right;
+}
+
+#form-comment {
+    border-top: 1px solid blink;
+    width: 94%;
+    padding: 0;
+    border-top: 1px solid #d1cfcf;
+    padding-top: 10px;
+    border-radius: 0;
+    position: absolute;
+    bottom: 0;
+}

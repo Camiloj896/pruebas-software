@@ -1,0 +1,67 @@
+.headerPage {
+    width: 100%;
+}
+
+.headerPage .btn-tellUs {
+    border-color: #FE6D6A;
+    color: #FE6D6A;
+}
+
+.headerPage .btn-tellUs:hover {
+    background-color: #FE6D6A;
+    color: white;
+}
+
+.headerPage .content-categories {
+    display: inline-block;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.headerPage .content-search {
+    display: inline-block;
+}
+
+.headerPage .content-categories a {
+    color: black;
+}
+
+.headerPage .profile {
+    display: inline-block;
+    float: right;
+    font-weight: bold;
+    position: relative;
+}
+
+.headerPage .profile .options-profile {
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    margin-top: 10px;
+    color: black;
+    font-weight: 100;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #b7b2b2;
+    z-index: 3;
+}
+
+.headerPage .profile .options-profile .profile-item {
+    text-align: center;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.headerPage .profile .options-profile .profile-item:hover {
+    color: #FE6D6A;
+}
+
+.headerPage .d-none {
+    display: none;
+}
+
+.headerPage .profile .avatar {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
